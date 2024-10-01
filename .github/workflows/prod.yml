@@ -51,6 +51,5 @@ jobs:
           password: ${{ secrets.PRODUCTION_SERVER_PASSWORD }}
           port: 22
           script: |
-            rm -rf /www/wwwroot/examples/my-bun/*
             tar -xzvf /www/wwwroot/examples/my-bun/dist.tar.gz -C /www/wwwroot/examples/my-bun/ --strip-components=1
             rm -f /www/wwwroot/examples/my-bun/dist.tar.gz
