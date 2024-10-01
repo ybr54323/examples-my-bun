@@ -46,7 +46,7 @@ export default function Bun(props) {
               x: e.clientX,
               y: e.clientY,
             },
-            content: <a href="/docs/blender/2024-9-21">介绍</a>,
+            content: <a href="/docs/blender/2024-9-21" target="_blank">介绍</a>,
           });
         }}
       >
